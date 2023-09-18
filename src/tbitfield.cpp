@@ -9,6 +9,12 @@
 
 TBitField::TBitField(int len)
 {
+	if (BitLen <= 0) throw ("Wrong length.");
+	else
+	{
+		MemLen = len / 32 + 1;
+
+	}
 }
 
 TBitField::TBitField(const TBitField &bf) // конструктор копирования

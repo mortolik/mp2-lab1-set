@@ -16,6 +16,7 @@
 
 int main()
 {
+    /*
   int n, m, k, count;
 
   setlocale(LC_ALL, "Russian");
@@ -88,7 +89,7 @@ int main()
         cout << endl;
     }
   cout << endl;
-  cout << "В первых " << n << " числах " << count << " простых" << endl;
+  cout << "В первых " << n << " числах " << count << " простых" << endl;*/
 }
 
 #endif
